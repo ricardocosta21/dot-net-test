@@ -1,0 +1,25 @@
+.card {
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(250, 250, 250);
+}
+
+.card-id{
+  font-size: smaller;
+  width: 10%;
+}
+
+.card-body{
+  width: 80%;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+}
+
+.card-time{
+  font-size: small;
+  width: 10%;
+}

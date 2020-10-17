@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{EEB9D485-5034-405B-8730-582F1E7FBB46}|restProject">
+  <MonoDevelop.Ide.ItemProperties.restAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="restProject/Controllers/MessagesController.cs">
+    <Files>
+      <File FileName="restProject/Controllers/MessagesController.cs" Line="36" Column="1" />
+      <File FileName="restProject/Services/MessagesService.cs" />
+      <File FileName="restProject/Persistence/Repositories/MessagesRepository.cs" />
+      <File FileName="restProject/Persistence/Contexts/AppDbContext.cs" />
+      <File FileName="restProject/Domain/Models/Messages.cs" />
+      <File FileName="restProject/Persistence/Repositories/BaseRepository.cs" />
+      <File FileName="restProject/Domain/Services/IMessagesService.cs" />
+      <File FileName="restProject/Startup.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NetCoreAPI" expanded="True" selected="True">
+            <Node name="restAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Persistence" expanded="True">
+                <Node name="Contexts" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
