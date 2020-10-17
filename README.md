@@ -6,7 +6,8 @@
 
 - A simple .Net Core API that allows an anonymous user to submit and retrieve a list of messages. I've added a React client to bring the API to life. This will send both GET and POST requests to the API.
 
-- Since we're managing data from a database, I've chosen to implement the Repository Pattern.
+- Since we're managing data from a database, I've chosen to implement the Repository Pattern. This enforces a separation of concerns because controllers should only be responsible for moving data to and from services and should contain no business logic.
+
 
 ## Build and run
 
@@ -22,25 +23,26 @@ dotnet run
 npm i && npm start
 ```
 
+
 ## Compromises
 
 Due to the 1 hour time constraint, a few compromises were made such as:
 
 - Entity Framework Core InMemory database was used, to keep data access trivial;
 
-- Error handling, data validation and data integrity were neglected;
+- Error handling, data validation and logging were neglected;
 
 - API versioning was not implemented due to the project simplicity;
 
 - Unit testing around controllers inputs and responses.
+
 
 ## Improvements
 
 - Setup Swagger to keep the API design under the OpenAPI best practices and make it easier for back-end implementation and client-side consumption. This includes:
 
     - Authentication and authorization to verify user identity and if he has access to perform a specific function;
-    - Logging, for teams to know what the API exposes without having to dive into code files;
-    - Versioning;
+    - Versioning to ensure backward compatibility of the service while adding new features or updating existing functionalities;
 
 - Unit and integration tests to keep the application working as expected and avoid production nightmares.
 
